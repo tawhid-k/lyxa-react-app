@@ -2,12 +2,11 @@
   "name": "lyxa-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tawhid-k.github.io/lyxa-react-app",
   "scripts": {
     "build": "next build",
-    "export": "next export",
-    "predeploy": "npm run build && npm run export",
-    "deploy": "gh-pages -d out --nojekyll"
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
